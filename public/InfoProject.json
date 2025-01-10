@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title": "Animal Society",
+        "description": "Un'applicazione mobile cross-platform per un grande rivenditore online, con funzionalità di realtà aumentata per la visualizzazione dei prodotti.",
+        "imageUrl": "/placeholder.svg?height=300&width=400",
+        "Team": ["Lorenzo","Francesco","Giuseppe","Alexandru"]
+      },
+      {
+        "id": "2",
+        "title": "POSD-System",
+        "description": "Una piattaforma web completa per la gestione delle risorse umane, contabilità e inventario per una media impresa.",
+        "imageUrl": "/placeholder.svg?height=300&width=400",
+         "Team": ["Lorenzo","Francesco","Giuseppe"]
+      },
+      {
+        "id": "3",
+        "title": "Integrazione e Test java",
+        "description": "Un ecosistema IoT scalabile per il controllo e il monitoraggio di dispositivi domestici intelligenti, con dashboard personalizzabile.",
+        "imageUrl": "/placeholder.svg?height=300&width=400",
+        "Team": ["Lorenzo","Francesco","Giuseppe","Alexandru"]
+      },
+      {
+        "id": "4",
+        "title": "E-Commerce",
+        "description": "Una piattaforma e-learning con corsi interattivi, valutazioni in tempo reale e integrazione con sistemi di videoconferenza.",
+        "imageUrl": "/placeholder.svg?height=300&width=400",
+        "Team": "Lorenzo"
+      }
+]

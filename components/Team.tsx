@@ -32,7 +32,7 @@ export default function Team(){
     return (
         <div className="flex flex-col justify-center items-center gap-8" >
           <h1 className="text-3xl"><strong>TEAM</strong></h1>
-        <div className="grid grid-cols-4 md:grid-cols-4 gap-4">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
           {dati.map((persona) => (
             <div 
             key={persona.id} 

@@ -1,3 +1,4 @@
+
 export interface Information{
     id:number,
     nome: string,
@@ -8,3 +9,12 @@ export interface Information{
     mail:string,
     linkedin:string,
 }
+
+export interface Project {
+    id: string
+    title: string
+    description: string
+    imageUrl: string
+    team: string[]
+  }
+  

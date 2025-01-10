@@ -1,7 +1,7 @@
 "use client"
 
 import Team from "@/components/Team";
-import Progetti from "@/components/Progetti";
+import Progetti  from "@/components/Progetti";
 import Servizi from "@/components/Servizi";
 export default function Home() {
 
