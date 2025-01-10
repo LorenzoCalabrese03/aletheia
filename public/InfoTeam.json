@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "nome": "Lorenzo Calabrese",
+      "src": "/Lorenzo1.jpg",
+      "ruolo": "Co-founder",
+      "descrizione": "Lorenzo Calabrese Certo! Ecco un testo di 45 parole: La natura ci offre paesaggi unici, dove il cielo si fonde con la terra e il tempo sembra fermarsi. Ogni momento trascorso immersi nella sua bellezza rigenera l’anima e il corpo, ricordandoci l’importanza di rispettare e preservare questo prezioso patrimonio.",
+      "github": "https://github.com/LorenzoCalabrese03",
+      "mail": "lorenzocalabrese.aziendale@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/lorenzo-calabrese-667a44276/"
+    },
+    {
+      "id": 2,
+      "nome": "Francesco Conforti",
+      "src": "/Francesco.jpeg",
+      "ruolo": "Co-founder",
+      "descrizione": "",
+      "github": "https://github.com/checcoconf",
+      "mail": "francesco.conforti.09@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/confortifrancesco/"
+    },
+    {
+      "id": 3,
+      "nome": "Giuseppe Pio De Biase",
+      "src": "/Giuseppe.jpeg",
+      "ruolo": "Co-founder",
+      "descrizione": "",
+      "github": "https://github.com/GiuseppePioDeBiase",
+      "mail": "giuseppepiodebiase@yahoo.it",
+      "linkedin": "https://www.linkedin.com/in/giuseppe-pio-de-biase-6329a2270/"
+    },
+    {
+      "id": 4,
+      "nome": "Alexandru Zaharia",
+      "src": "/Lorenzo1.jpg",
+      "ruolo": "Co-founder",
+      "descrizione": "",
+      "github": "https://github.com/darkmodeftw",
+      "mail": "alexandergt2002@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/alexandru-zaharia-4565a0304/"
+    }
+  ]
+  
