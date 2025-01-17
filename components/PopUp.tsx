@@ -37,11 +37,12 @@ export default function PopUp({ closeModal, person }: PopUpProps) {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
             {/* Foto e Ruolo */}
             <div className="flex flex-col items-center md:col-span-1">
-              <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg border-4 border-teal-300 dark:border-white">
+              <div className="relative w-32 h-32 rounded-full overflow-hidden shadow-lg border-4 border-teal-300 dark:border-white">
                 <Image
                   src={person?.src || "/placeholder.svg"}
                   alt={`${person?.nome || ""}`}
-                  className="w-full h-full object-cover"
+                  className="object-cover"
+                  layout="fill"
                 />
               </div>
               <div className="bg-teal-100 text-teal-800 px-4 py-2 rounded-full text-sm font-semibold mt-3 dark:bg-gray-500 dark:text-white dark:border-white">
