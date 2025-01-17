@@ -9,7 +9,7 @@ export default function Progetti() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/aletheia/InfoProject.json")
+    fetch("/InfoProject.json")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Errore nel caricamento dei dati: ${response.statusText}`);

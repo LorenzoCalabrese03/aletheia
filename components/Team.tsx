@@ -18,7 +18,7 @@ export default function Team(){
 
 
   useEffect(() => {
-    fetch("/aletheia/InfoTeam.json") // Percorso relativo dalla directory public
+    fetch("InfoTeam.json") // Percorso relativo dalla directory public
       .then((response) => {
         if (!response.ok) {
           throw new Error(`Errore nel caricamento dei dati: ${response.statusText}`);

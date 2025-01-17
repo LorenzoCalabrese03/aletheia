@@ -1,18 +1,9 @@
-import type { NextConfig } from "next";
+/** @type {import('next').NextConfig} */
 
-const nextConfig: NextConfig = {
+
+const nextConfig = {
+  reactStrictMode: true,
 
 };
-module.exports = {
-  assetPrefix: '/aletheia/',// Definisce un prefisso per il caricamento delle risorse statiche 
-  basePath: '/aletheia',// Definisce un prefisso per tutte le rotte della tua applicazione. 
-  async rewrites() {
-    return [
-      {
-        source: '/aletheia/:path*',
-        destination: '/:path*',
-      },
-    ];
-  },  
-};
-export default nextConfig;
+
+module.exports = nextConfig;

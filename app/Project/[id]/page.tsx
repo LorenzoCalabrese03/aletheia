@@ -14,7 +14,7 @@ interface RouteParams {
     const [isLoading, setIsLoading] = useState(true);
  
     useEffect(() => {
-      fetch('/InfoProject.json')
+      fetch('/aletheia/InfoProject.json')
         .then((response) => {
           if (!response.ok) {
             throw new Error(`Errore nel caricamento dei dati: ${response.statusText}`);

@@ -47,10 +47,10 @@ export default function Footer() {
                     
                     <div className="flex space-x-4 mt-4">
                         <a href="https://www.linkedin.com/company/aletheia-startup" target="_blank" rel="noopener noreferrer">
-                            <Image src="/aletheia/icons/linkedin.png" alt="LinkedIn" className="w-6 h-6 hover:opacity-75" width={40} height={40}/>
+                            <Image src="/icons/linkedin.png" alt="LinkedIn" className="w-6 h-6 hover:opacity-75" width={40} height={40}/>
                         </a>
                         <a href="https://github.com/Aletheia-Startup" target="_blank" rel="noopener noreferrer">
-                            <Image src="/aletheia/icons/github.png" alt="GitHub" className="w-6 h-6 hover:opacity-75" width={40} height={40} />
+                            <Image src="/icons/github.png" alt="GitHub" className="w-6 h-6 hover:opacity-75" width={40} height={40} />
                         </a>
                     </div>
                 </div>
