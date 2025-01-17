@@ -1,4 +1,5 @@
 import { Information } from "@/types/Information";
+import Image from 'next/image';
 
 interface PopUpProps {
   closeModal: () => void;
@@ -37,7 +38,7 @@ export default function PopUp({ closeModal, person }: PopUpProps) {
             {/* Foto e Ruolo */}
             <div className="flex flex-col items-center md:col-span-1">
               <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg border-4 border-teal-300 dark:border-white">
-                <img
+                <Image
                   src={person?.src || "/placeholder.svg"}
                   alt={`${person?.nome || ""}`}
                   className="w-full h-full object-cover"

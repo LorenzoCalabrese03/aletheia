@@ -12,7 +12,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center">Chi Siamo</h2>
             <p className="text-lg text-center max-w-3xl mx-auto">
-              Aletheia IT è una startup innovativa che offre soluzioni tecnologiche all'avanguardia per aiutare le aziende a crescere e prosperare nell'era digitale.
+              Aletheia IT è una startup innovativa che offre soluzioni tecnologiche all avanguardia per aiutare le aziende a crescere e prosperare nell era digitale.
             </p>
           </div>
         </section>

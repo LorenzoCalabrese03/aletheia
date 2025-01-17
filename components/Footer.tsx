@@ -1,16 +1,17 @@
 "use client"
-import { useState } from "react"
+//import { useState } from "react"
+import Image from 'next/image';
 export default function Footer() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false)
-    const [isScrolled, setIsScrolled] = useState(false)
+    // const [isMenuOpen, setIsMenuOpen] = useState(false)
+    // const [isScrolled, setIsScrolled] = useState(false)
   
-  const scrollToSection = (sectionId: string) => {
-    const section = document.getElementById(sectionId)
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' })
-    }
-    setIsMenuOpen(false)
-  }
+  // const scrollToSection = (sectionId: string) => {
+  //   const section = document.getElementById(sectionId)
+  //   if (section) {
+  //     section.scrollIntoView({ behavior: 'smooth' })
+  //   }
+  //   setIsMenuOpen(false)
+  // }
     return (
         <footer className="bg-gray-800 text-white py-8">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -30,7 +31,7 @@ export default function Footer() {
             <button
               key={item}
             //   variant="ghost"
-              onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}
+             // onClick={() => scrollToSection(item.toLowerCase().replace(' ', '-'))}
               className="text-base font-medium"
             >
               {item}
@@ -46,10 +47,10 @@ export default function Footer() {
                     
                     <div className="flex space-x-4 mt-4">
                         <a href="https://www.linkedin.com/company/aletheia-startup" target="_blank" rel="noopener noreferrer">
-                            <img src="/icons/linkedin.png" alt="LinkedIn" className="w-6 h-6 hover:opacity-75" />
+                            <Image src="/icons/linkedin.png" alt="LinkedIn" className="w-6 h-6 hover:opacity-75" />
                         </a>
                         <a href="https://github.com/Aletheia-Startup" target="_blank" rel="noopener noreferrer">
-                            <img src="/icons/github.png" alt="GitHub" className="w-6 h-6 hover:opacity-75" />
+                            <Image src="/icons/github.png" alt="GitHub" className="w-6 h-6 hover:opacity-75" />
                         </a>
                     </div>
                 </div>
